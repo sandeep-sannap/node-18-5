@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const mongodb = require("mongodb");
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 // Connection URL
 const url = process.env.DB_URL;
